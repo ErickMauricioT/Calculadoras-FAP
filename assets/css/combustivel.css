@@ -1,0 +1,61 @@
+/* Definindo o estilo básico para o corpo da página */
+body {
+  padding: 0%;
+  margin: 0%;
+  background-image: url('../images/mangueira.png');
+  background-position: center;
+  background-size: 24rem;
+  background-repeat: no-repeat;
+}
+
+#pai {
+  width: 300px;
+  height: 300px;
+  margin: 25px 40%;
+  border-radius: 10px;
+  background-color: unset;
+  box-shadow: 0 5px 40px 20px rgba(241, 198, 6, 0.973);
+  font-weight: bolder;
+  font-size: x-large;
+  color: rgb(255, 0, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#valor,
+#valor2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input {
+  border-radius: 8px;
+  border-color: #1ab6ff;
+  height: 30px;
+}
+
+#btn-s {
+  margin-top: 10px;
+}
+
+#btn {
+  background-color:rgb(14, 209, 24);
+  color: rgb(12, 12, 12);
+  width: 7rem;
+  height: 30px;
+  border-radius:7px;
+  border: none;
+  
+  
+}
+ button, #btn:hover{
+  transform: scale(1.2);
+  background-color: #1ab6ff;
+  color: rgb(243, 62, 62);
+  
+}

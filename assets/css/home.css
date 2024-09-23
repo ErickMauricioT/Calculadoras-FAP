@@ -1,0 +1,36 @@
+body,
+html {
+  margin: 0; /* Remove a margem padrão dos elementos body e html */
+  padding: 0; /* Remove o padding padrão dos elementos body e html */
+  font-family: 'Poppins', sans-serif; /* Define a fonte padrão para Arial, e caso não tenha, para sans-serif */
+  min-height: 100vh; /* Garante que a altura mínima do body seja 100% da altura da janela (viewport) */
+  background-image: url(/assets/images/bgBG.png);
+}
+
+header {
+  background-color: #1ab6ff;
+  padding: 1rem 8rem;
+  justify-content: space-between;
+  gap: 6rem;
+  display: flex;
+}
+
+.navlinks {
+  gap: 5rem;
+  display: flex;
+  align-items: center;
+
+}
+
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(243, 62, 62);
+    transition: 0.2s;
+  }
+
+.navlinks a:hover {
+  transform: scale(1.2);
+  color:blueviolet;
+}

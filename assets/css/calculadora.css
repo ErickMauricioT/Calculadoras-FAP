@@ -1,0 +1,53 @@
+/* Estilo para o contêiner da calculadora */
+.calculadora {
+  position: relative;
+  left: 40%;
+  margin-top: 6%;
+  background-color: #181616; /* Cor de fundo da calculadora */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor da calculadora */
+  display: grid; /* Utilizando grid layout */
+  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas iguais */
+  grid-gap: 10px; /* Espaço entre as células da grid */
+  width: 250px; /* Largura da calculadora */
+}
+
+/* Estilo do campo de entrada (visor) */
+input {
+  background-color: #f4f4f4; /* Cor dentro do input */
+  grid-column: span 4; /* O visor ocupa todas as 4 colunas */
+  height: 40px; /* Altura do visor */
+  font-size: 24px; /* Tamanho da fonte */
+  text-align: right; /* Alinha o texto à direita */
+  padding: 10px; /* Espaçamento interno */
+  border: 2px solid #c33bdf; /* Borda ao redor do visor */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+/* Estilo para os botões */
+button {
+  width: 100%; /* O botão ocupa 100% da largura da célula da grid */
+  height: 50px; /* Altura dos botões */
+  font-size: 20px; /* Tamanho da fonte nos botões */
+  background-color: #eee; /* Cor de fundo dos botões */
+  border: none; /* Remove bordas padrão */
+  border-radius: 5px; /* Cantos arredondados nos botões */
+  cursor: pointer; /* Muda o cursor ao passar sobre os botões */
+  transition: background-color 0.3s; /* Transição suave ao mudar a cor de fundo */
+}
+
+/* Cor de fundo ao passar o mouse sobre os botões */
+button:hover {
+  background-color: #c33bdf;
+}
+
+/* Cor de fundo ao clicar nos botões */
+button:active {
+  background-color: #0d6d85;
+}
+
+.bots {
+  width: 100%; /* O botão ocupa 100% da largura da célula da grid */
+  height: 30px; /* Altura dos botões */
+}

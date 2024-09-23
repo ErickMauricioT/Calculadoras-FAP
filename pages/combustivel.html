@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Combustivel</title>
+  <link rel="stylesheet" href="../assets/css/home.css" />
+  <link rel="stylesheet" href="../assets/css/combustivel.css">
+</head>
+
+<body>
+  <header>
+    <a href="../home.html">
+      <img src="../assets/images/logo.png" alt="calculadora">
+    </a>
+    <nav class="navlinks">
+      <a href="../home.html"> Home </a>
+      <a href="../pages/calculadora.html">Calculadora Normal</a>
+      <a href="../pages/cotacao.html">Conversor de Modedas</a>
+    </nav>
+  </header>
+
+<h1 align="center">Calcular Combustivel</h1>
+  <div id="pai">
+   
+    <div id="valor">
+      <label for="alcool">Alcool</label>
+      <input type="number" id="alcool" class="form-control">
+    </div>
+
+    <div id="valor2">
+      <label for="gasolina">Gasolina</label>
+      <input type="number" id="gasolina" class="form-control">
+    </div>
+
+    <div id="btn-s">
+      <button type="button" id="btn" >Avaliar</button>
+    </div>
+    <div id="resultado"></div>
+  </div>
+
+
+
+  <script src="../dist/combustivel.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

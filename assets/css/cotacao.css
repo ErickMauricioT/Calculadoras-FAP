@@ -1,0 +1,67 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-image: url('../images/cifrao.png');
+  background-position: center;
+  background-size: 30rem;
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 50px;
+  margin-top: 6px;
+  margin-left: 35%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 20px rgba(126, 5, 5, 0.1);
+  max-width: 400px;
+  width: 100%;
+  height: min-content;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  color: #333;
+  font-size:large;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#resultado {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+#opcao{
+ position: relative;
+ width: 10rem;
+ display: block;
+ left: 30%;
+}
